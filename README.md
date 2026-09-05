@@ -19,6 +19,4 @@ This website includes:
 - Github Pages
 
 ### Credits:
-Eric Pogue with the help of ChatGPT created this repository as a template for your "Introductions" website.
-- Add your application name and add yourself as the Author.
 - Credits to Eric Pogue, ChatGPT, and GitHub for creating the template of this website.
