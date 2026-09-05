@@ -1,12 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>About Me</title>
     <style>
+
+        a.email-link:link, .hobbies a:link {
+                color: #4B0082;
+            }
+
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            background-color: #470460;
             line-height: 1.6;
+        }
+        
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+            color: #0d0615;
+        }
+
+        .profile_800 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .profile_300 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .profile_800 img {
+            border: 5px solid #4B0082;
+        }
+        .profile_300 img {
+            border: 5px solid #4B0082;
+        }
+
+        .profile_800 img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-height: 800px;
+            
+        }
+        .profile_300 img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-height: 300px;
         }
         .container {
             width: 80%;
@@ -14,51 +57,82 @@
             overflow: hidden;
         }
         .main-info {
-            background: #333;
-            color: #fff;
+            background: #9467bf;
+            color: #0d0615;
             padding: 20px;
         }
         .main-info h1 {
             margin: 0;
+        
         }
-        .hobbies, .lewis, .course, .job {
-            background: #e7e7e7;
+        .profile_800, .profile_300, .hobbies, .introduction, .course, .fun-fact {
+            background: #9467bf;
             padding: 15px;
             margin-bottom: 10px;
         }
     </style>
 </head>
 <body>
+    <div class="profile_800">
+        <img src="me-800-by-800.png" alt="Profile Picture 800">
+    </div>
+    
+    
     <div class="container">
         <header class="main-info">
-            <h1>[Your First and Last Name]</h1>
-            <h1>Preferred Name: [Your Preferred Name]</h1>
+            <h1>Alanna San Luis’s Introductions Website</h1>
+            <h1>Preferred Name: Alanna</h1>
+            <p>
+            <a href="mailto:alannamarietsanlui@lewisu.edu" class="email-link">alannamarietsanlui@lewisu.edu</a>
+            </p>
+            <p>Discord: pickity_dsp</p>
         </header>
 
-        <section class="lewis">
-			<h2>Year at Lewis: [Your Years at Lewis]</h2>
-			<h2>Lewis major/minor/concentrations: [Your major/minor/concentrations]</h2>
-			<h2>Reasons for pursuing this degree: [Your reasons for pursuing the degree]</h2>
+        <section class="introduction">
+            <h2>Introduction</h2>
+			<p>About myself</p>
+            <p>I am a senior at Lewis University and I am studying Cybersecurity with a minor in Computer Science. Ever since my programming class in highschool, I have always been interested in technology, particularly in the security aspect, which has motivated me to learn more skills and knowledge that can be used to protect devices, systems, and networks </p>
+            <p>In my free time, I enjoy taking walks and hanging out with my friends on campus. My favorite movie genre to watch is horror, action, and mystery. I enjoy reading mystery and thriller books because I love trying to figure out clues and the overall plot. I think it makes the reading experience much more fun. </p>
+			<p>Reasons for pursuing this degree: The reason why I am pursuing a cybersecurity degree because I have a strong interest in the security aspect of the technology field. I want to be involved in protecting infrastructure and data from cyber threats</p>
         </section>
+
+        <div class="profile_300">
+            <img src="me-300-by-300.png" alt="Profile Picture 300">
+        </div>
 
 		<section class="course">
-            <h2>Reasons for Taking This Course</h2>
-            <p>[Your reasons for taking this course]</p>
+            <h2>What I Hope to Learn in this Course</h2>
+            <p> 
+				• Applying Cloud Computing Concepts<br>
+			 	• Web Services<br> 
+			 	• Software Testing<br>
+			 	• Project Management<br>
+			</p>
         </section>
-
-		<section class="job">
-            <p>Current/Recent Job</p>
-			<p>[Your job responsibilities]</p>
-        </section>		
+	
 
         <section class="hobbies">
-            <h2>Hobbies and Special Interests</h2>
-            <p>[Your hobbies or special interests]</p>
+            <h2>My Favorite Hobby/ Activity</h2>
+            <ul>
+                <li>Painting</li>
+                <li>Biking</li>
+                <li>Reading</li>
+            </ul>
+            <p>
+                I enjoy painting, crafting, and reading in my free time because of how relaxing and fun both activies are. I enjoy painting because it allows me to express myself and my emotions through art. Crafting is also a fun hobby of mine because I enjoy making things with my hands and being creative. Reading is also a hobby of mine because I enjoy getting lost in a good book and learning new things.
+            </p>
+
+                <p>External Links to Information About My Hobbies:</p>
+
+                <a href="https://hobbiesblog.com/how-to-start-painting-as-a-hobby/">Painting</a>
+                <a href="https://www.pivothealth.com/healthy-hobbies-a-beginners-guide-to-cycling-206687">Biking</a>
+                <a href="https://hobbiesblog.com/why-is-reading-a-good-hobby/">Reading</a>
+
         </section>
 
         <section class="fun-fact">
             <h2>Fun Fact</h2>
-            <p>[A fun fact about yourself]</p>
+            <p>A fun fact about me is that I collect stickers from the places I visit asa way to remember my travels. </p>
         </section>
     </div>
 </body>
